@@ -2,18 +2,21 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    background-color: #000000;
+    background-color: #1f001d;
 }
 /* styling menu icon */
+#navbar-top{
+    background-color: #211e39;
+}
 .nav-menu{
     border: none;
-    background-color: #000000;
+    background-color: #ff0000;
     font-size: 1.5rem;
     color: #fca61f;
 }
 /* styling navbar links  */
 .navbar-nav a{
-    color: black;
+    color: rgb(255, 255, 255);
     position: relative;
 }
 .navbar-nav a:hover{
@@ -39,13 +42,13 @@ body{
   /* styling contact btn  */
 .c-btn{
     border: none;
-    background: #fca61f;
+    background: #3f396d;
     color: #fff;
     font-size: 1.2rem;
 }
 /* styling home section starts */
 .home{
-   background-color:    #ffffff;
+   background-color:    #1f001d;
     /* background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%); */
     padding: 30px 0px 10px 0px;
 }
@@ -54,7 +57,7 @@ body{
     line-height: 4rem;
 }
 .c-orange{
-    color: #89ff29;
+    color: #ffd60a;
     font-weight: 700;
     font-size: 4rem;
 }
@@ -98,15 +101,18 @@ body{
 }
 /* adding animation to home section image  */
 .home img{
-    animation: floatimg 4s ease-in-out infinite;
+    animation: floatimg 6s ease-in-out infinite;
+}
+.home img:hover{
+    transition: width 2s, height 4s;
 }
 
 @keyframes floatimg {
     0%{
-        transform: translateX(0);
+        transform: translateX(10px);
     }
     50%{
-        transform: translateX(-24px);
+        transform: translateX(-104px);
     }
     100%{
         transform: translateX(0);
@@ -144,7 +150,7 @@ body{
 
 /* skill section starts */
 .skill{
-    background-color: rgb(234, 234, 249);
+    background-color: #1f001d;
 }
 .progress-card{
     padding: 12% 10% 10% 15%;
@@ -205,7 +211,7 @@ body{
 }
 #myBtnContainer button{
   border: none;
-  color: black;
+  color: rgb(255, 255, 255);
   background: transparent;
   font-size: 20px;
   font-weight: 600;
@@ -309,8 +315,11 @@ body{
     color: #6f34fe;
 }
 /* contact section starts */
+.col-11{
+    color:#f2f2ff
+}
 .contact{
-    background-color: #f3f3f3;
+    background-color: #1f001d;
 }
 .contact-details i{
     font-size: 1.5rem;
